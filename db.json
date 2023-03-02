@@ -6,6 +6,23 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "hanna@email.com",
+      "password": "$2a$10$kc7SibeXa6xo5Z7SCuX/sebAfKUqQ7Jt.ivzFWrFxvgQf6ixu1KtO",
+      "id": 2
+    },
+    {
+      "email": "romana@email.com",
+      "password": "$2a$10$FyM7da6MIFtMRa15KHYihutgl0/5sI3Qq/UerYzEV83hrzU8t0fhS",
+      "id": 3
+    }
+  ],
+  "addresses": [
+    {
+      "userId": 2,
+      "address": "1015 Chestnut Grove",
+      "id": 1
     }
   ]
 }
