@@ -17,7 +17,7 @@ Seguem os endpoinst disponíveis na aplicação:
 ```json
 {
 	"email": "romana@email.com",
-	"password": "123456",
+	"password": "Senh@123",
 	"name": "Romana",
 	"phone_number": "85985480622"
 }
