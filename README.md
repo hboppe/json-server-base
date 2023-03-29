@@ -1,10 +1,10 @@
-# json-server-base
+# Travel Agency - API
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Projetos Front-end.
+Esta é uma fake API construida para o projeto em grupo chamado "Travel Agency - Expedição Amazônia" de tema livre e com a participaçao dos seguintes colegas: Noelle Franco, Mariana Cardoso, Luana Morais e Germano Lop. 
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+Seguem os endpoinst disponíveis na aplicação:
 
 ### Cadastro
 
