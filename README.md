@@ -41,14 +41,18 @@ Seguem os endpoinst disponíveis na aplicação:
 <br/>
 
 ```POST /favoritesActivities - Favoritar Atividade - FORMATO DA REQUISIÇÃO``` <br/>
+
 ```json
 {
 	"userId": 1,
 	"activityId": 6
 }
 ```
+
 <br/>
+
 ```POST /favoritesActivities - Favoritar Atividade - FORMATO DA RESPOSTA``` <br/>
+
 ```json
 {
 	"userId": 1,
@@ -56,16 +60,22 @@ Seguem os endpoinst disponíveis na aplicação:
 	"id": 2
 }
 ```
+
 <br/>
+
 ```POST /favoritesHotels - Favoritar Hotel - FORMATO DA REQUISIÇÃO``` <br/>
+
 ```json
 {
 	"userId": 1,
 	"hotelId": 6
 }
 ```
+
 <br/>
+
 ```POST /favoritesHotels - Favoritar Hotel - FORMATO DA RESPOSTA``` <br/>
+
 ```json
 {
 	"userId": 1,
@@ -73,16 +83,22 @@ Seguem os endpoinst disponíveis na aplicação:
 	"id": 2
 }
 ```
+
 <br/>
+
 ```POST /reservedHotels - Reservar Hotel - FORMATO DA REQUISIÇÃO``` <br/>
+
 ```json
 {
 	"userId": 1,
 	"hotelId": 2
 }
 ```
+
 <br/>
+
 ```POST /reservedHotels - Reservar Hotel - FORMATO DA RESPOSTA``` <br/>
+
 ```json
 {
 	"userId": 1,
@@ -90,6 +106,7 @@ Seguem os endpoinst disponíveis na aplicação:
 	"id": 1
 }
 ```
+
 <br/>
 
 
