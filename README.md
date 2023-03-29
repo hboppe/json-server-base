@@ -174,13 +174,30 @@ Seguem os endpoinst disponíveis na aplicação:
 <br/>
 
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
-
 ### Login
 
-POST /login <br/>
+```POST /login - Login de usuário - FORMATO DA REQUISICAO``` <br/>
+```json
+{
+	"email": "kenzinho@mail.com",
+	"password": "123456"
+}
+```
+<br/>
+
+```POST /login - Login de usuário - FORMATO DA RESPOSTA``` <br/>
+```json
+{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnppbmhvQG1haWwuY29tIiwiaWF0IjoxNjc4NzA5MzYxLCJleHAiOjE2Nzg3MTI5NjEsInN1YiI6IjEifQ.GeScZse95q6oWcjtbMQ6QGk1EN1FIYBo9kIBOugrnhs",
+	"user": {
+		"email": "kenzinho@mail.com",
+		"name": "Kenzinho",
+		"phone_number": "8599875656",
+		"id": 1
+	}
+}
+```
+
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
