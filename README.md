@@ -14,7 +14,7 @@ Seguem os endpoinst disponíveis na aplicação:
 
 ```POST /register - FORMATO DA REQUISIÇÃO ```<br/>
 
-```
+```javascript
 {
 	"email": "romana@email.com",
 	"password": "123456",
