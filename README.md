@@ -8,7 +8,7 @@ Seguem os endpoinst disponíveis na aplicação:
 
 ### Cadastro
 
-POST /register <br/>
+```POST /register <br/>```
 POST /signup <br/>
 POST /users
 
