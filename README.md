@@ -23,7 +23,7 @@ Seguem os endpoinst disponíveis na aplicação:
 }
 ```
 <br/>
-```POST /register - Cadastro de usuários - FORMATO DA RESPOSTA  ```<br/>
+```POST /register - Cadastro de usuários - FORMATO DA RESPOSTA```<br/>
 ```json
 {
 	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvbWFuYUBlbWFpbC5jb20iLCJpYXQiOjE2Nzc4OTIzODcsImV4cCI6MTY3Nzg5NTk4Nywic3ViIjoiMyJ9.ApXPdkmhKVikauaMyI4NyGepijT2H7rB8i3Ucr8vUQk",
