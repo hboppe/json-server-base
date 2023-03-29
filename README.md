@@ -136,6 +136,43 @@ Seguem os endpoinst disponíveis na aplicação:
 
 <br/>
 
+### Listar informaçoes
+
+```POST /hotels - Adicionar nova review de Hotel - FORMATO DA REQUISIÇÃO``` <br/>
+
+```json
+{}
+```
+
+<br/>
+
+```POST /hotels - Adicionar nova review de Hotel - FORMATO DA RESPOSTA``` <br/>
+
+```json
+[
+	{
+		"id": 1,
+		"name": "Holiday Inn Manaus",
+		"price": 149,
+		"address": "Av. Rodrigo Otávio, 3721 - Japiim, Manaus - AM, 69073-177, Brazil",
+		"img": "https://images.pexels.com/photos/13696647/pexels-photo-13696647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"reviews": null,
+		"rooms": 13
+	},
+	{
+		"id": 2,
+		"name": "Hotel casa dos Frades",
+		"price": 89,
+		"address": "Rua 10 de Julho, 567 - Centro, Manaus - AM, 69010-060, Brazil",
+		"img": "https://images.unsplash.com/photo-1652067871207-ddb47c708633?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+		"reviews": null,
+		"rooms": 10
+	}
+]
+```
+
+<br/>
+
 
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
