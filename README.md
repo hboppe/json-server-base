@@ -109,6 +109,33 @@ Seguem os endpoinst disponíveis na aplicação:
 
 <br/>
 
+```POST /hotelsReviews - Adicionar nova review de Hotel - FORMATO DA REQUISIÇÃO``` <br/>
+
+```json
+{
+	"userId": 1,
+	"hotelId": 2,
+	"comment": "Otimo hotel!",
+	"rating": 5
+}
+```
+
+<br/>
+
+```POST /hotelsReviews - Adicionar nova review de Hotel - FORMATO DA RESPOSTA``` <br/>
+
+```json
+{
+	"userId": 1,
+	"hotelId": 2,
+	"comment": "Otimo hotel!",
+	"rating": 5,
+	"id": 4
+}
+```
+
+<br/>
+
 
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
